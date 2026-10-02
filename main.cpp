@@ -1,6 +1,9 @@
 #include <iostream> #include <cmath>
 // Підключаємо простір імен std, щоб не писати "std::" перед cout, cin, endl using namespace std;
+#include <iostream>
+#include <cmath>
 
+using namespace std;
 int main() { 
   // ЗАВДАННЯ 1 (Integer42) //
  int P, N;
@@ -85,6 +88,8 @@ int main() {
  } else {
  double y = numerator / denominator;
  cout << "Результат y = " << y << endl;
-        
+        }
+    }
+}
  return 0;
 }
