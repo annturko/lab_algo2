@@ -85,9 +85,6 @@ int main() {
  } else {
  double y = numerator / denominator;
  cout << "Результат y = " << y << endl;
-        }
-    }
-}
-
-return 0;
+        
+ return 0;
 }
